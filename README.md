@@ -31,14 +31,14 @@ Built with **Streamlit**, the entire system runs **offline** for maximum privacy
    ```
 
 2. Set your local image directory:
-   Open `local_image_search_app.py` and set:
+   Open `script.py` and set:
    ```python
    IMAGE_DIR = "path_to_your_image_folder"
    ```
 
 3. Run the app:
    ```bash
-   streamlit run local_image_search_app.py
+   streamlit script.py
    ```
 
 4. Open your browser at `http://localhost:8501` and start searching!
